@@ -1,0 +1,22 @@
+/* TEAM */
+Name: Filipe
+Nickname: masilli
+Contact: masilli [at] gmail.com
+Twitter: @masilli
+From: Madeira Island, Portugal
+Hometown: Funchal
+Living in: Machico
+
+[...]
+
+/* THANKS */
+My Wife: @tomasia
+
+[...]
+
+/* SITE */
+
+Last update: 2021/04/05
+Language: English / Portuguese
+Doctype: HTML5
+IDE: VSCode, Illustrator, Photoshop

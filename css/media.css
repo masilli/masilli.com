@@ -1,0 +1,140 @@
+@media (min-width: 751px) and (max-width: 1024px) {
+        body, html {
+			font-family: monospace, sans-serif;
+			font-weight: 100;
+		}
+		#wrapper {
+			width: 90%;
+			margin: auto;
+			padding: 4%;
+		}
+		#profile #name {
+			width: 62%;
+		}
+		#profile #name h1,
+		#profile #name h2, {
+			width: 100vw;
+		}
+		#profile #bio {
+			clear: both;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		#skills .skilldiv {
+			width:50%;
+			margin-bottom: 10px;
+		}
+		#awards .date {
+			padding: 10px;
+		}
+		#contacts span, #social span {
+			width: 40%;
+			text-align: left;
+		}
+		#end {
+			width: 700px;
+		}
+}
+
+@media (min-width: 320px) and (max-width: 750px) {
+		body, html {
+			font-family: monospace, sans-serif;
+			font-weight: 100;
+		}
+        #wrapper {
+			width: 90%;
+			margin: auto;
+			padding: 4%;
+			/*text-align: center;*/
+		}
+        h3 {
+        	text-align: center;
+        }
+        h1 {
+			font-size: 2em;
+			white-space: nowrap;
+		}
+		h2 {
+			color: #b6004c;
+			font-size: 5rem;
+			white-space: nowrap;
+		}
+		h3 {
+        	text-align: center;
+        	font-size: 2em;
+        }
+		#profile #name {
+			width: 100%;
+			text-align: center;
+		}
+		#profile #name .tags-name {
+			font-size: 2rem;
+			white-space: nowrap;
+		}
+		#profile #bio {
+			clear: both;
+			width: 100%;
+			margin-bottom: 10px;
+			font-size: 1.2em;
+		}
+		#profile #photo img {
+			display: none;
+		}
+		#profile #photo {
+			background-image: url('../img/masilli-ipad-mini.gif');
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: block;
+			clear: both;
+			border: 10px solid white;
+			box-shadow: 0px 0px 20px rgba(54,48,40,0.5);
+			margin: 0 auto 20px;
+			border-radius: 50%;
+			width:300px;
+			height:300px;
+		}
+		.description {
+			font-size: 1.2em;
+			text-align: justify;
+		}
+		#skills .skilldiv {
+			clear: both;
+			width:100%;
+			margin-bottom: 10px;
+			font-size: 1.1em;
+		}
+		#skills .skilldiv .tools {
+			width: 25%;
+		}
+		#experience .activity {
+			width: 60%;
+			line-height: 1.2em;
+			margin-bottom: 2em;
+		}
+		#awards .description {
+			width: 85%;
+			text-align: left;
+			/*display: block;*/
+		}
+		#awards .date {
+			padding: 10px;
+		}
+		#contacts, #social {
+			clear: both;
+			height: 17em;
+		}
+		#contacts span, #social span {
+			clear: both;
+			margin-top: 10px;
+			margin-left: 5px;
+			width: 95%;
+			text-align: left;
+		}
+		#contacts span i, #social span i {
+			margin-left: 5px;
+		}
+		#end {
+			width: 75%;
+		}
+}
